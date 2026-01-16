@@ -7,211 +7,211 @@ local M = {}
 -- Forest theme - Deep greens, mossy tones, earthy browns (default)
 -- Inspired by ancient woodland, moss-covered stones, and dappled sunlight
 M.forest = {
-  -- Base backgrounds (Forest floor at dusk)
-  bg = "#1a2019",
-  bg_dark = "#141816",
-  bg_highlight = "#232b22",
-  bg_visual = "#2d3d2b",
+  -- Base backgrounds (Warm grey like monokai/everforest)
+  bg = "#2b2d2e",
+  bg_dark = "#232526",
+  bg_highlight = "#353839",
+  bg_visual = "#414548",
 
-  -- Foregrounds (Sunlit leaves)
-  fg = "#d4e4c7",
-  fg_dark = "#b8ccab",
-  fg_gutter = "#4a5a48",
+  -- Foregrounds (Soft cream)
+  fg = "#e4e3e1",
+  fg_dark = "#c8c5c1",
+  fg_gutter = "#5c5e5e",
 
   -- Primary greens (Various foliage)
-  green = "#7cb87c",
-  green_bright = "#a3d9a3",
-  green_dim = "#5a8a5a",
-  green_dark = "#3d5c3d",
+  green = "#a9dc76",
+  green_bright = "#9ed072",
+  green_dim = "#6a9f5a",
+  green_dark = "#4a6a4a",
 
   -- Earth tones (Bark, soil, fallen leaves)
-  bark = "#a67c52",
-  bark_dark = "#7a5a3a",
-  moss = "#8fbc8f",
+  bark = "#e69875",
+  bark_dark = "#b87a5a",
+  moss = "#9ed072",
   soil = "#6b5344",
   soil_dark = "#4a3a2e",
 
   -- Accent colors (Wildflowers and berries)
-  berry = "#d96b8c",
-  berry_dark = "#a34d68",
-  sunflower = "#e6c86e",
-  orange = "#e89b5a",
+  berry = "#f85e84",
+  berry_dark = "#c44d68",
+  sunflower = "#e7c664",
+  orange = "#f99157",
 
   -- Water tones (Stream running through forest)
-  stream = "#6bacb8",
-  stream_dark = "#4a8a96",
-  mist = "#88b4c4",
+  stream = "#78dce8",
+  stream_dark = "#5ab4c4",
+  mist = "#7ad5d6",
 
   -- Special (Rare forest finds)
-  purple = "#9b8dc4",
-  orchid = "#c98bb8",
-  white = "#e8ece4",
-  black = "#0f1210",
+  purple = "#ab9df2",
+  orchid = "#e5a5e5",
+  white = "#f8f8f2",
+  black = "#131415",
 
   -- UI specific
-  border = "#4a6048",
-  comment = "#6a8068",
-  selection = "#3a4a38",
-  cursorline = "#1f2a1e",
-  pmenu = "#1c241b",
-  pmenu_sel = "#3a4a38",
+  border = "#5c5e5e",
+  comment = "#7a7d7d",
+  selection = "#414548",
+  cursorline = "#323435",
+  pmenu = "#2e3032",
+  pmenu_sel = "#414548",
 
   -- Diff colors
-  diff_add = "#243a24",
+  diff_add = "#2d3a2d",
   diff_delete = "#3d2832",
-  diff_change = "#2a3a28",
-  diff_text = "#3a5a38",
+  diff_change = "#2e3a3a",
+  diff_text = "#3a5a4a",
 
   -- Git colors
-  git_add = "#7cb87c",
-  git_delete = "#d96b8c",
-  git_change = "#e89b5a",
+  git_add = "#a9dc76",
+  git_delete = "#f85e84",
+  git_change = "#f99157",
 
   -- Diagnostic colors
-  error = "#d96b8c",
-  warning = "#e89b5a",
-  info = "#6bacb8",
-  hint = "#8fbc8f",
+  error = "#f85e84",
+  warning = "#f99157",
+  info = "#78dce8",
+  hint = "#9ed072",
 }
 
 -- Waterfall theme - Blues, teals, misty grays
 -- Inspired by cascading waterfalls, river stones, and morning mist
 M.waterfall = {
-  -- Base backgrounds (Deep pool at waterfall base)
-  bg = "#181e22",
-  bg_dark = "#131619",
-  bg_highlight = "#212930",
-  bg_visual = "#2a3a44",
+  -- Base backgrounds (Warm slate grey)
+  bg = "#282c34",
+  bg_dark = "#21252b",
+  bg_highlight = "#323842",
+  bg_visual = "#3e4452",
 
-  -- Foregrounds (Spray and foam)
-  fg = "#c8dce8",
-  fg_dark = "#a8bcc8",
-  fg_gutter = "#4a5a64",
+  -- Foregrounds (Cool white)
+  fg = "#e0e4eb",
+  fg_dark = "#b8bcc4",
+  fg_gutter = "#545862",
 
   -- Primary blues (Water in various states)
-  green = "#5eb5c4",
+  green = "#61afef",
   green_bright = "#8ad4e2",
   green_dim = "#4a8a98",
   green_dark = "#3a6a78",
 
   -- Stone tones (River rocks, wet slate)
-  bark = "#8a9aaa",
-  bark_dark = "#6a7a8a",
-  moss = "#7aacba",
+  bark = "#d19a66",
+  bark_dark = "#b87a5a",
+  moss = "#7ec699",
   soil = "#5a6a78",
   soil_dark = "#4a5a66",
 
   -- Accent colors (Reflected sky, sunset on water)
-  berry = "#c87a9a",
-  berry_dark = "#a85a7a",
-  sunflower = "#d4bc7a",
-  orange = "#d4956a",
+  berry = "#e06c75",
+  berry_dark = "#be5046",
+  sunflower = "#e5c07b",
+  orange = "#d19a66",
 
   -- Deep water tones
-  stream = "#4a9aba",
-  stream_dark = "#3a7a9a",
-  mist = "#9ac4d4",
+  stream = "#56b6c2",
+  stream_dark = "#3a9aaa",
+  mist = "#8ad4e2",
 
   -- Special (Rare stones, shells)
-  purple = "#9a8ac4",
-  orchid = "#b898b8",
-  white = "#e4eaf0",
-  black = "#0e1214",
+  purple = "#c678dd",
+  orchid = "#d4a5d4",
+  white = "#f0f4f8",
+  black = "#121418",
 
   -- UI specific
-  border = "#4a6878",
-  comment = "#6a8898",
-  selection = "#344a58",
-  cursorline = "#1c2428",
-  pmenu = "#1a2228",
-  pmenu_sel = "#344a58",
+  border = "#545862",
+  comment = "#6b727d",
+  selection = "#3e4452",
+  cursorline = "#2c323c",
+  pmenu = "#2a2e36",
+  pmenu_sel = "#3e4452",
 
   -- Diff colors
-  diff_add = "#243848",
-  diff_delete = "#3d2838",
-  diff_change = "#2a3848",
+  diff_add = "#2d3a2d",
+  diff_delete = "#3d2832",
+  diff_change = "#2e3a44",
   diff_text = "#3a5868",
 
   -- Git colors
-  git_add = "#5eb5c4",
-  git_delete = "#c87a9a",
-  git_change = "#d4956a",
+  git_add = "#7ec699",
+  git_delete = "#e06c75",
+  git_change = "#d19a66",
 
   -- Diagnostic colors
-  error = "#c87a9a",
-  warning = "#d4956a",
-  info = "#4a9aba",
-  hint = "#7aacba",
+  error = "#e06c75",
+  warning = "#d19a66",
+  info = "#56b6c2",
+  hint = "#7ec699",
 }
 
 -- Meadow theme - Light, airy spring pastels
 -- Inspired by flower-filled meadows, butterflies, and gentle breezes
 M.meadow = {
-  -- Base backgrounds (Shaded grass)
-  bg = "#1e2420",
-  bg_dark = "#181c18",
-  bg_highlight = "#283028",
-  bg_visual = "#344034",
+  -- Base backgrounds (Warm grey with hint of green)
+  bg = "#2a2e2a",
+  bg_dark = "#232623",
+  bg_highlight = "#353a35",
+  bg_visual = "#404540",
 
   -- Foregrounds (Bright spring day)
-  fg = "#e0ecd8",
-  fg_dark = "#c4d8bc",
-  fg_gutter = "#5a6a58",
+  fg = "#e8ebe4",
+  fg_dark = "#c8ccc4",
+  fg_gutter = "#5a5e5a",
 
   -- Primary greens (Fresh spring growth)
-  green = "#88c888",
-  green_bright = "#a8e8a8",
-  green_dim = "#68a868",
-  green_dark = "#487848",
+  green = "#a7c080",
+  green_bright = "#b8d898",
+  green_dim = "#7a9a6a",
+  green_dark = "#5a7a4a",
 
   -- Warm pastels (Wildflowers)
-  bark = "#d8a878",
-  bark_dark = "#b88858",
-  moss = "#98d898",
+  bark = "#e69875",
+  bark_dark = "#c87858",
+  moss = "#a7c080",
   soil = "#8a7868",
   soil_dark = "#6a5848",
 
   -- Flower colors (Poppies, lavender, buttercups)
-  berry = "#e898a8",
-  berry_dark = "#c87888",
-  sunflower = "#f8d878",
-  orange = "#f8b888",
+  berry = "#e67e80",
+  berry_dark = "#c86468",
+  sunflower = "#dbbc7f",
+  orange = "#e69875",
 
   -- Sky tones (Clear spring sky)
-  stream = "#78c8d8",
-  stream_dark = "#58a8b8",
-  mist = "#a8d8e8",
+  stream = "#7fbbb3",
+  stream_dark = "#5a9a92",
+  mist = "#9ad8d0",
 
   -- Special (Butterflies, rare blooms)
-  purple = "#b8a8d8",
-  orchid = "#d8a8c8",
-  white = "#f0f4ec",
-  black = "#141814",
+  purple = "#d699b6",
+  orchid = "#e0a8c8",
+  white = "#f4f8f0",
+  black = "#181a18",
 
   -- UI specific
-  border = "#588858",
-  comment = "#78a878",
-  selection = "#3e4e3c",
-  cursorline = "#242e24",
-  pmenu = "#202820",
-  pmenu_sel = "#3e4e3c",
+  border = "#5a5e5a",
+  comment = "#7a8078",
+  selection = "#404540",
+  cursorline = "#313531",
+  pmenu = "#2d302d",
+  pmenu_sel = "#404540",
 
   -- Diff colors
-  diff_add = "#2a4a2a",
-  diff_delete = "#4a2a3a",
-  diff_change = "#3a4a2a",
-  diff_text = "#4a6a4a",
+  diff_add = "#2d3a2d",
+  diff_delete = "#3d2832",
+  diff_change = "#353a35",
+  diff_text = "#4a5a4a",
 
   -- Git colors
-  git_add = "#88c888",
-  git_delete = "#e898a8",
-  git_change = "#f8b888",
+  git_add = "#a7c080",
+  git_delete = "#e67e80",
+  git_change = "#e69875",
 
   -- Diagnostic colors
-  error = "#e898a8",
-  warning = "#f8b888",
-  info = "#78c8d8",
-  hint = "#98d898",
+  error = "#e67e80",
+  warning = "#e69875",
+  info = "#7fbbb3",
+  hint = "#a7c080",
 }
 
 -- Default to forest theme
