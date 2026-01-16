@@ -8,10 +8,10 @@ local M = {}
 -- Inspired by ancient woodland, moss-covered stones, and dappled sunlight
 M.forest = {
 	-- Base backgrounds (Warm slate grey)
-	bg = "#282c34",
-	bg_dark = "#21252b",
-	bg_highlight = "#323842",
-	bg_visual = "#3e4452",
+	bg = "#132a13",
+	bg_dark = "#081c15",
+	bg_highlight = "#2f3e46",
+	bg_visual = "#3a0ca3",
 
 	-- Foregrounds (Soft cream)
 	fg = "#e4e3e1",
