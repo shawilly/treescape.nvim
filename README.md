@@ -18,7 +18,7 @@ Treescape includes three nature-inspired themes:
 - LSP semantic token highlighting
 - Extensive plugin support for LazyVim and popular Neovim plugins
 - Lualine theme included
-- Transparent and semi-transparent background options
+- Transparent background option
 
 ## Requirements
 
@@ -61,7 +61,7 @@ Default options:
 ```lua
 require("treescape").setup({
   theme = "forest",       -- "forest", "waterfall", or "meadow"
-  transparent = false,    -- false = solid, true = fully transparent, number (1-100) = semi-transparent
+  transparent = false,    -- Enable transparent background
   terminal_colors = true, -- Set terminal colors
   styles = {
     comments = { italic = true },
@@ -74,19 +74,13 @@ require("treescape").setup({
 
 ### Transparency
 
-The `transparent` option supports three modes:
+Set `transparent = true` to enable a transparent background. This sets the background to `NONE`, allowing your terminal's background to show through.
 
-- `false` - Solid background (default)
-- `true` - Fully transparent background (requires terminal transparency)
-- `1-100` - Semi-transparent using blend (higher = more transparent, requires compatible terminal)
+For semi-transparency, configure your terminal's opacity setting:
 
-```lua
--- Examples
-require("treescape").setup({ transparent = true })  -- fully transparent
-require("treescape").setup({ transparent = 50 })    -- 50% blend
-```
-
-**Note:** Semi-transparency using blend requires a terminal that supports the feature (kitty, alacritty, wezterm, etc.).
+- **kitty**: `background_opacity 0.9` in `kitty.conf`
+- **alacritty**: `window.opacity: 0.9` in `alacritty.toml`
+- **wezterm**: `window_background_opacity = 0.9` in `wezterm.lua`
 
 ## Switching Themes
 

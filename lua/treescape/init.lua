@@ -5,7 +5,7 @@ local M = {}
 
 M.config = {
   theme = "forest", -- "forest", "waterfall", or "meadow"
-  transparent = false, -- true = fully transparent, false = solid, number (1-100) = semi-transparent
+  transparent = false, -- Enable transparent background (terminal controls opacity)
   terminal_colors = true,
   styles = {
     comments = { italic = true },
