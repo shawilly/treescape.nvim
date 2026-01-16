@@ -145,7 +145,7 @@ function M.setup(c, config)
 	set_hl("@label", { fg = c.orchid })
 
 	-- Literals
-	set_hl("@string", { fg = c.moss })
+	set_hl("@string", { fg = c.sunflower })
 	set_hl("@string.documentation", { fg = c.comment })
 	set_hl("@string.regexp", { fg = c.orange })
 	set_hl("@string.escape", { fg = c.purple })
