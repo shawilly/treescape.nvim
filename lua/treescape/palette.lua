@@ -7,71 +7,71 @@ local M = {}
 -- Forest theme - Deep greens, mossy tones, earthy browns (default)
 -- Inspired by ancient woodland, moss-covered stones, and dappled sunlight
 M.forest = {
-	-- Base backgrounds (Warm slate grey)
-	bg = "#132a13",
-	bg_dark = "#081c15",
-	bg_highlight = "#2f3e46",
-	bg_visual = "#3a0ca3",
+	-- Base backgrounds (Deep forest floor)
+	bg = "#1a2618",
+	bg_dark = "#131c12",
+	bg_highlight = "#2a3628",
+	bg_visual = "#3a4a38",
 
-	-- Foregrounds (Soft cream)
-	fg = "#e4e3e1",
-	fg_dark = "#c8c5c1",
-	fg_gutter = "#5c5e5e",
+	-- Foregrounds (Pale lichen, weathered wood)
+	fg = "#d4cfc4",
+	fg_dark = "#b8b3a8",
+	fg_gutter = "#5a6258",
 
-	-- Primary greens (Various foliage)
-	green = "#a9dc76",
-	green_bright = "#9ed072",
-	green_dim = "#6a9f5a",
-	green_dark = "#4a6a4a",
+	-- Primary greens (Moss, fern, sage - natural tones)
+	green = "#8fae7e",
+	green_bright = "#a4c493",
+	green_dim = "#6b8e5f",
+	green_dark = "#4a6644",
 
 	-- Earth tones (Bark, soil, fallen leaves)
-	bark = "#e69875",
-	bark_dark = "#b87a5a",
-	moss = "#9ed072",
+	bark = "#c9a26d",
+	bark_dark = "#a67c52",
+	moss = "#7da87b",
 	soil = "#6b5344",
 	soil_dark = "#4a3a2e",
 
-	-- Accent colors (Wildflowers and berries)
-	berry = "#f85e84",
-	berry_dark = "#c44d68",
-	sunflower = "#e7c664",
-	orange = "#f99157",
+	-- Accent colors (Autumn leaves, wildberries)
+	berry = "#b35d4e",
+	berry_dark = "#8c4a3e",
+	sunflower = "#c9a04d",
+	orange = "#c07050",
 
-	-- Water tones (Stream running through forest)
-	stream = "#78dce8",
-	stream_dark = "#5ab4c4",
-	mist = "#7ad5d6",
+	-- Water tones (Forest stream, morning mist)
+	stream = "#6b8a9a",
+	stream_dark = "#5a7585",
+	mist = "#8aa89a",
 
-	-- Special (Rare forest finds)
-	purple = "#ab9df2",
-	orchid = "#e5a5e5",
-	white = "#f8f8f2",
-	black = "#131415",
+	-- Special (Twilight shadows, wild orchids)
+	purple = "#8a7a9a",
+	orchid = "#a890a8",
+	white = "#e8e4dc",
+	black = "#131815",
 
 	-- UI specific
-	border = "#5c5e5e",
-	comment = "#7a7d7d",
-	selection = "#414548",
-	cursorline = "#323435",
-	pmenu = "#2e3032",
-	pmenu_sel = "#414548",
+	border = "#4a5648",
+	comment = "#6a7268",
+	selection = "#3a4838",
+	cursorline = "#252e22",
+	pmenu = "#232a20",
+	pmenu_sel = "#3a4838",
 
 	-- Diff colors
-	diff_add = "#2d3a2d",
-	diff_delete = "#3d2832",
-	diff_change = "#2e3a3a",
-	diff_text = "#3a5a4a",
+	diff_add = "#2a3a28",
+	diff_delete = "#3a2828",
+	diff_change = "#2a3232",
+	diff_text = "#3a4a3a",
 
 	-- Git colors
-	git_add = "#a9dc76",
-	git_delete = "#f85e84",
-	git_change = "#f99157",
+	git_add = "#8fae7e",
+	git_delete = "#b35d4e",
+	git_change = "#c9a04d",
 
 	-- Diagnostic colors
-	error = "#f85e84",
-	warning = "#f99157",
-	info = "#78dce8",
-	hint = "#9ed072",
+	error = "#b35d4e",
+	warning = "#c07050",
+	info = "#6b8a9a",
+	hint = "#8fae7e",
 }
 
 -- Waterfall theme - Blues, teals, misty grays
