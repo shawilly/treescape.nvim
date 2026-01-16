@@ -11,16 +11,20 @@ function M.setup(c, config)
 	local styles = config.styles
 
 	-- Helper for conditional transparency
-	local bg = transparent and "NONE" or c.bg
-	local bg_dark = transparent and "NONE" or c.bg_dark
-	local bg_highlight = transparent and "NONE" or c.bg_highlight
+	-- transparent can be: false (solid), true (fully transparent), or number 1-100 (semi-transparent blend)
+	local is_full_transparent = transparent == true
+	local blend = type(transparent) == "number" and math.min(100, math.max(0, transparent)) or nil
+
+	local bg = is_full_transparent and "NONE" or c.bg
+	local bg_dark = is_full_transparent and "NONE" or c.bg_dark
+	local bg_highlight = is_full_transparent and "NONE" or c.bg_highlight
 
 	-----------------------------------------------------------------------------
 	-- Editor highlights
 	-----------------------------------------------------------------------------
-	set_hl("Normal", { fg = c.fg, bg = bg })
-	set_hl("NormalNC", { fg = c.fg, bg = bg })
-	set_hl("NormalFloat", { fg = c.fg, bg = c.pmenu })
+	set_hl("Normal", { fg = c.fg, bg = bg, blend = blend })
+	set_hl("NormalNC", { fg = c.fg, bg = bg, blend = blend })
+	set_hl("NormalFloat", { fg = c.fg, bg = c.pmenu, blend = blend })
 	set_hl("FloatBorder", { fg = c.border, bg = c.pmenu })
 	set_hl("FloatTitle", { fg = c.green_bright, bg = c.pmenu, bold = true })
 	set_hl("Cursor", { fg = c.bg, bg = c.fg })
@@ -30,8 +34,8 @@ function M.setup(c, config)
 	set_hl("CursorColumn", { bg = c.cursorline })
 	set_hl("ColorColumn", { bg = c.bg_highlight })
 	set_hl("LineNr", { fg = c.fg_gutter })
-	set_hl("SignColumn", { fg = c.fg_gutter, bg = bg })
-	set_hl("FoldColumn", { fg = c.fg_gutter, bg = bg })
+	set_hl("SignColumn", { fg = c.fg_gutter, bg = bg, blend = blend })
+	set_hl("FoldColumn", { fg = c.fg_gutter, bg = bg, blend = blend })
 	set_hl("Folded", { fg = c.comment, bg = c.bg_highlight })
 	set_hl("VertSplit", { fg = c.border })
 	set_hl("WinSeparator", { fg = c.border })
@@ -64,8 +68,8 @@ function M.setup(c, config)
 	set_hl("TabLine", { fg = c.comment, bg = c.bg_dark })
 	set_hl("TabLineFill", { bg = c.bg_dark })
 	set_hl("TabLineSel", { fg = c.green_bright, bg = c.bg })
-	set_hl("WinBar", { fg = c.fg, bg = bg })
-	set_hl("WinBarNC", { fg = c.comment, bg = bg })
+	set_hl("WinBar", { fg = c.fg, bg = bg, blend = blend })
+	set_hl("WinBarNC", { fg = c.comment, bg = bg, blend = blend })
 	set_hl("WildMenu", { fg = c.bg, bg = c.green })
 
 	-- Popup menu

@@ -1,6 +1,6 @@
 # treescape.nvim
 
-A calming nature-inspired Neovim colorscheme featuring forest greens, waterfall blues, and meadow pastels. Colors pop with a Monokai-inspired layout while maintaining a peaceful, natural essence.
+A calming nature-inspired Neovim colorscheme featuring forest greens, waterfall blues, and meadow pastels. Organic, earthy tones that evoke the feeling of being deep in an ancient woodland.
 
 ## Themes
 
@@ -18,7 +18,7 @@ Treescape includes three nature-inspired themes:
 - LSP semantic token highlighting
 - Extensive plugin support for LazyVim and popular Neovim plugins
 - Lualine theme included
-- Transparent background option
+- Transparent and semi-transparent background options
 
 ## Requirements
 
@@ -61,7 +61,7 @@ Default options:
 ```lua
 require("treescape").setup({
   theme = "forest",       -- "forest", "waterfall", or "meadow"
-  transparent = false,    -- Enable transparent background
+  transparent = false,    -- false = solid, true = fully transparent, number (1-100) = semi-transparent
   terminal_colors = true, -- Set terminal colors
   styles = {
     comments = { italic = true },
@@ -71,6 +71,22 @@ require("treescape").setup({
   },
 })
 ```
+
+### Transparency
+
+The `transparent` option supports three modes:
+
+- `false` - Solid background (default)
+- `true` - Fully transparent background (requires terminal transparency)
+- `1-100` - Semi-transparent using blend (higher = more transparent, requires compatible terminal)
+
+```lua
+-- Examples
+require("treescape").setup({ transparent = true })  -- fully transparent
+require("treescape").setup({ transparent = 50 })    -- 50% blend
+```
+
+**Note:** Semi-transparency using blend requires a terminal that supports the feature (kitty, alacritty, wezterm, etc.).
 
 ## Switching Themes
 
@@ -149,14 +165,14 @@ require("lualine").setup({
 
 | Color         | Hex       | Usage                           |
 | ------------- | --------- | ------------------------------- |
-| Leaf Green    | `#a3d9a3` | Functions, highlights           |
-| Forest Green  | `#7cb87c` | Keywords, statements            |
-| Moss          | `#8fbc8f` | Strings                         |
-| Bark          | `#a67c52` | Constants, parameters           |
-| Stream Blue   | `#6bacb8` | Types, info                     |
-| Berry         | `#d96b8c` | Errors, exceptions              |
-| Sunflower     | `#e6c86e` | Numbers, warnings, search       |
-| Purple        | `#9b8dc4` | Special, rare items             |
+| Moss Green    | `#8fae7e` | Functions, strings              |
+| Fern          | `#a4c493` | Highlights, bright accents      |
+| Sage          | `#6b8e5f` | Muted greens                    |
+| Bark          | `#c9a26d` | Constants, parameters           |
+| Stream        | `#6b8a9a` | Types, info                     |
+| Rust          | `#b35d4e` | Errors, exceptions              |
+| Amber         | `#c9a04d` | Numbers, warnings, search       |
+| Twilight      | `#8a7a9a` | Special, rare items             |
 
 ### Waterfall
 
@@ -187,4 +203,3 @@ require("lualine").setup({
 ## License
 
 MIT
-# treescape.nvim
