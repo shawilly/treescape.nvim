@@ -257,6 +257,7 @@ function M.setup(c, config)
 	set_hl("@lsp.mod.defaultLibrary", { fg = c.orange })
 	set_hl("@lsp.typemod.function.defaultLibrary", { fg = c.green_bright })
 	set_hl("@lsp.typemod.variable.defaultLibrary", { fg = c.orange })
+	set_hl("@lsp.typemod.type.defaultLibrary", { fg = c.stream })
 
 	-----------------------------------------------------------------------------
 	-- Diagnostics
@@ -302,6 +303,10 @@ function M.setup(c, config)
 	set_hl("@punctuation.special.go", { fg = c.berry })
 	set_hl("@type.go", { fg = c.stream })
 	set_hl("@type.builtin.go", { fg = c.stream })
+	set_hl("@lsp.type.type.go", { fg = c.stream })
+	set_hl("@lsp.type.interface.go", { fg = c.stream })
+	set_hl("@lsp.type.struct.go", { fg = c.stream })
+	set_hl("@lsp.type.typeParameter.go", { fg = c.stream })
 
 	-- TypeScript/JavaScript
 	set_hl("@type.typescript", { fg = c.stream })
