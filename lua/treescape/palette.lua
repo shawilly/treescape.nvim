@@ -55,6 +55,7 @@ M.forest = {
 	cursorline = "#252e22",
 	pmenu = "#232a20",
 	pmenu_sel = "#3a4838",
+	bg_oak = "#3a3428",
 
 	-- Diff colors
 	diff_add = "#2a3a28",
@@ -125,6 +126,7 @@ M.waterfall = {
 	cursorline = "#2c323c",
 	pmenu = "#2a2e36",
 	pmenu_sel = "#3e4452",
+	bg_oak = "#403830",
 
 	-- Diff colors
 	diff_add = "#2d3a2d",
@@ -195,6 +197,7 @@ M.meadow = {
 	cursorline = "#313531",
 	pmenu = "#2d302d",
 	pmenu_sel = "#404540",
+	bg_oak = "#403830",
 
 	-- Diff colors
 	diff_add = "#2d3a2d",

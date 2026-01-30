@@ -256,6 +256,7 @@ function M.setup(c, config)
 	set_hl("@lsp.mod.readonly", { italic = true })
 	set_hl("@lsp.mod.defaultLibrary", { fg = c.orange })
 	set_hl("@lsp.typemod.function.defaultLibrary", { fg = c.green_bright })
+	set_hl("@lsp.typemod.method.defaultLibrary", { fg = c.green_bright })
 	set_hl("@lsp.typemod.variable.defaultLibrary", { fg = c.orange })
 	set_hl("@lsp.typemod.type.defaultLibrary", { fg = c.stream })
 
@@ -287,7 +288,7 @@ function M.setup(c, config)
 	-----------------------------------------------------------------------------
 	-- LSP
 	-----------------------------------------------------------------------------
-	set_hl("LspReferenceText", { bg = c.bg_visual })
+	set_hl("LspReferenceText", { bg = c.bg_oak })
 	set_hl("LspReferenceRead", { bg = c.bg_visual })
 	set_hl("LspReferenceWrite", { bg = c.bg_visual })
 	set_hl("LspSignatureActiveParameter", { fg = c.green_bright, bold = true })
