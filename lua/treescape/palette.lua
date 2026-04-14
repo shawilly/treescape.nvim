@@ -8,14 +8,14 @@ local M = {}
 -- Inspired by ancient woodland, moss-covered stones, and dappled sunlight
 M.forest = {
 	-- Base backgrounds (Deep forest floor)
-	bg = "#121910",
-	bg_dark = "#0d120c",
-	bg_highlight = "#1d271b",
-	bg_visual = "#283327",
+	bg = "#0d1409",
+	bg_dark = "#090f08",
+	bg_highlight = "#182216",
+	bg_visual = "#222e21",
 
 	-- Foregrounds (Pale lichen, weathered wood)
-	fg = "#d4cfc4",
-	fg_dark = "#b8b3a8",
+	fg = "#ddd6c0",
+	fg_dark = "#c0b8a4",
 	fg_gutter = "#5a6258",
 
 	-- Primary greens (Moss, fern, sage - natural tones)
@@ -51,16 +51,16 @@ M.forest = {
 	-- Special (Twilight shadows, wild orchids)
 	purple = "#7c736f",
 	orchid = "#95867d",
-	white = "#e8e4dc",
-	black = "#131815",
+	white = "#ede4cc",
+	black = "#090e09",
 
 	-- UI specific
-	border = "#394436",
+	border = "#2e3b2c",
 	comment = "#6a7268",
-	selection = "#2a3528",
-	cursorline = "#1a2218",
-	pmenu = "#171d15",
-	pmenu_sel = "#2a3528",
+	selection = "#222e21",
+	cursorline = "#111a10",
+	pmenu = "#0f1710",
+	pmenu_sel = "#222e21",
 	bg_oak = "#2d281f",
 
 	-- Diff colors
@@ -88,14 +88,14 @@ M.forest = {
 -- Inspired by cascading waterfalls, river stones, and morning mist
 M.waterfall = {
 	-- Base backgrounds (Warm slate grey)
-	bg = "#282c34",
-	bg_dark = "#21252b",
-	bg_highlight = "#323842",
-	bg_visual = "#3e4452",
+	bg = "#20242c",
+	bg_dark = "#191d24",
+	bg_highlight = "#2a303a",
+	bg_visual = "#343c4a",
 
 	-- Foregrounds (Cool white)
-	fg = "#e0e4eb",
-	fg_dark = "#b8bcc4",
+	fg = "#ddd8c8",
+	fg_dark = "#b8b4a4",
 	fg_gutter = "#545862",
 
 	-- Primary blues (Water in various states)
@@ -131,16 +131,16 @@ M.waterfall = {
 	-- Special (Rare stones, shells)
 	purple = "#8e8396",
 	orchid = "#aea0b3",
-	white = "#f0f4f8",
-	black = "#121418",
+	white = "#ede4cc",
+	black = "#0e1014",
 
 	-- UI specific
-	border = "#545862",
+	border = "#464c5a",
 	comment = "#6b727d",
-	selection = "#3e4452",
-	cursorline = "#2c323c",
-	pmenu = "#2a2e36",
-	pmenu_sel = "#3e4452",
+	selection = "#343c4a",
+	cursorline = "#1e2430",
+	pmenu = "#1c2028",
+	pmenu_sel = "#343c4a",
 	bg_oak = "#403830",
 
 	-- Diff colors
@@ -168,14 +168,14 @@ M.waterfall = {
 -- Inspired by flower-filled meadows, butterflies, and gentle breezes
 M.meadow = {
 	-- Base backgrounds (Warm grey with hint of green)
-	bg = "#2a2e2a",
-	bg_dark = "#232623",
-	bg_highlight = "#353a35",
-	bg_visual = "#404540",
+	bg = "#222622",
+	bg_dark = "#1c1f1c",
+	bg_highlight = "#2d322d",
+	bg_visual = "#383d38",
 
 	-- Foregrounds (Bright spring day)
-	fg = "#e8ebe4",
-	fg_dark = "#c8ccc4",
+	fg = "#ddd8c2",
+	fg_dark = "#c0bca8",
 	fg_gutter = "#5a5e5a",
 
 	-- Primary greens (Fresh spring growth)
@@ -211,16 +211,16 @@ M.meadow = {
 	-- Special (Butterflies, rare blooms)
 	purple = "#9b8a8d",
 	orchid = "#b7a1a3",
-	white = "#f4f8f0",
-	black = "#181a18",
+	white = "#ede4cc",
+	black = "#111311",
 
 	-- UI specific
-	border = "#5a5e5a",
+	border = "#4a4e4a",
 	comment = "#7a8078",
-	selection = "#404540",
-	cursorline = "#313531",
-	pmenu = "#2d302d",
-	pmenu_sel = "#404540",
+	selection = "#383d38",
+	cursorline = "#1e221e",
+	pmenu = "#1f231f",
+	pmenu_sel = "#383d38",
 	bg_oak = "#403830",
 
 	-- Diff colors
