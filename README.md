@@ -1,6 +1,8 @@
 # treescape.nvim
 
-A calming nature-inspired Neovim colorscheme featuring forest greens, waterfall blues, and meadow pastels. Organic, earthy tones that evoke the feeling of being deep in an ancient woodland.
+Treescape is a nature-inspired Vim / Neovim colorscheme theme with three variants: forest, waterfall, and meadow. This color scheme is built for calm contrast, readable code, and soft organic palettes that still hold up during long editing sessions.
+
+Keywords for discovery: `vim`, `neovim`, `theme`, `color scheme`, `colour scheme`, `colorscheme`, `colourscheme`.
 
 ## Themes
 

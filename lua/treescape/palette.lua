@@ -8,10 +8,10 @@ local M = {}
 -- Inspired by ancient woodland, moss-covered stones, and dappled sunlight
 M.forest = {
 	-- Base backgrounds (Deep forest floor)
-	bg = "#1a2618",
-	bg_dark = "#131c12",
-	bg_highlight = "#2a3628",
-	bg_visual = "#3a4a38",
+	bg = "#121910",
+	bg_dark = "#0d120c",
+	bg_highlight = "#1d271b",
+	bg_visual = "#283327",
 
 	-- Foregrounds (Pale lichen, weathered wood)
 	fg = "#d4cfc4",
@@ -32,36 +32,45 @@ M.forest = {
 	soil_dark = "#4a3a2e",
 
 	-- Accent colors (Autumn leaves, wildberries)
-	berry = "#b35d4e",
-	berry_dark = "#8c4a3e",
-	sunflower = "#c9a04d",
-	orange = "#c07050",
+	berry = "#9f5d46",
+	berry_dark = "#7f4a39",
+	sunflower = "#b8944c",
+	orange = "#aa6f4e",
 
 	-- Water tones (Forest stream, morning mist)
 	stream = "#6b8a9a",
 	stream_dark = "#5a7585",
 	mist = "#8aa89a",
 
+	-- Syntax accents
+	leaf = "#b8c99b",
+	wood = "#b89462",
+	dew = "#8fbcc4",
+	rosehip = "#c57967",
+
 	-- Special (Twilight shadows, wild orchids)
-	purple = "#8a7a9a",
-	orchid = "#a890a8",
+	purple = "#7c736f",
+	orchid = "#95867d",
 	white = "#e8e4dc",
 	black = "#131815",
 
 	-- UI specific
-	border = "#4a5648",
+	border = "#394436",
 	comment = "#6a7268",
-	selection = "#3a4838",
-	cursorline = "#252e22",
-	pmenu = "#232a20",
-	pmenu_sel = "#3a4838",
-	bg_oak = "#3a3428",
+	selection = "#2a3528",
+	cursorline = "#1a2218",
+	pmenu = "#171d15",
+	pmenu_sel = "#2a3528",
+	bg_oak = "#2d281f",
 
 	-- Diff colors
-	diff_add = "#2a3a28",
-	diff_delete = "#3a2828",
-	diff_change = "#2a3232",
-	diff_text = "#3a4a3a",
+	diff_add = "#1d281c",
+	diff_delete = "#2a1d1a",
+	diff_change = "#1c2527",
+	diff_text = "#263126",
+	diag_warn_bg = "#272115",
+	diag_info_bg = "#192429",
+	diag_hint_bg = "#182519",
 
 	-- Git colors
 	git_add = "#8fae7e",
@@ -69,8 +78,8 @@ M.forest = {
 	git_change = "#c9a04d",
 
 	-- Diagnostic colors
-	error = "#b35d4e",
-	warning = "#c07050",
+	error = "#9f5d46",
+	warning = "#aa6f4e",
 	info = "#6b8a9a",
 	hint = "#8fae7e",
 }
@@ -103,19 +112,25 @@ M.waterfall = {
 	soil_dark = "#4a5a66",
 
 	-- Accent colors (Reflected sky, sunset on water)
-	berry = "#e06c75",
-	berry_dark = "#be5046",
-	sunflower = "#e5c07b",
-	orange = "#d19a66",
+	berry = "#b4705f",
+	berry_dark = "#92584a",
+	sunflower = "#c7aa74",
+	orange = "#bb8963",
 
 	-- Deep water tones
 	stream = "#56b6c2",
 	stream_dark = "#3a9aaa",
 	mist = "#8ad4e2",
 
+	-- Syntax accents
+	leaf = "#a7d7de",
+	wood = "#d7a774",
+	dew = "#88c8d8",
+	rosehip = "#e28b93",
+
 	-- Special (Rare stones, shells)
-	purple = "#c678dd",
-	orchid = "#d4a5d4",
+	purple = "#8e8396",
+	orchid = "#aea0b3",
 	white = "#f0f4f8",
 	black = "#121418",
 
@@ -133,6 +148,9 @@ M.waterfall = {
 	diff_delete = "#3d2832",
 	diff_change = "#2e3a44",
 	diff_text = "#3a5868",
+	diag_warn_bg = "#3a3225",
+	diag_info_bg = "#233842",
+	diag_hint_bg = "#24352f",
 
 	-- Git colors
 	git_add = "#7ec699",
@@ -140,8 +158,8 @@ M.waterfall = {
 	git_change = "#d19a66",
 
 	-- Diagnostic colors
-	error = "#e06c75",
-	warning = "#d19a66",
+	error = "#b4705f",
+	warning = "#bb8963",
 	info = "#56b6c2",
 	hint = "#7ec699",
 }
@@ -174,19 +192,25 @@ M.meadow = {
 	soil_dark = "#6a5848",
 
 	-- Flower colors (Poppies, lavender, buttercups)
-	berry = "#e67e80",
-	berry_dark = "#c86468",
-	sunflower = "#dbbc7f",
-	orange = "#e69875",
+	berry = "#bb7b67",
+	berry_dark = "#9a6252",
+	sunflower = "#c8b076",
+	orange = "#cb8f6f",
 
 	-- Sky tones (Clear spring sky)
 	stream = "#7fbbb3",
 	stream_dark = "#5a9a92",
 	mist = "#9ad8d0",
 
+	-- Syntax accents
+	leaf = "#c9e0a5",
+	wood = "#ebb07b",
+	dew = "#8ecfc8",
+	rosehip = "#ee9ea6",
+
 	-- Special (Butterflies, rare blooms)
-	purple = "#d699b6",
-	orchid = "#e0a8c8",
+	purple = "#9b8a8d",
+	orchid = "#b7a1a3",
 	white = "#f4f8f0",
 	black = "#181a18",
 
@@ -204,6 +228,9 @@ M.meadow = {
 	diff_delete = "#3d2832",
 	diff_change = "#353a35",
 	diff_text = "#4a5a4a",
+	diag_warn_bg = "#3b3224",
+	diag_info_bg = "#253734",
+	diag_hint_bg = "#273527",
 
 	-- Git colors
 	git_add = "#a7c080",
@@ -211,8 +238,8 @@ M.meadow = {
 	git_change = "#e69875",
 
 	-- Diagnostic colors
-	error = "#e67e80",
-	warning = "#e69875",
+	error = "#bb7b67",
+	warning = "#cb8f6f",
 	info = "#7fbbb3",
 	hint = "#a7c080",
 }
